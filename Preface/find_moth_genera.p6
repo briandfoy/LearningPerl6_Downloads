@@ -12,7 +12,8 @@ the ones that contain Latin letters between underscores, like an
 old school typewriter would represent italics. An example line we
 should find:
 
-not quite up to their highest total. The _Noctuae_ and _Geometrae_ each
+	not quite up to their highest total. The _Noctuae_ and _Geometrae_ each
+
 
 =end pod
 
