@@ -2,11 +2,16 @@
 
 =begin pod
 
+https://github.com/briandfoy/LearningPerl6_Downloads
+
 For the exercise in the preface to Learning Perl 6.
 
 Read the lines from the files specified on the command line. Print
 the ones that contain Latin letters between underscores, like an
-old school typewriter would represent italics.
+old school typewriter would represent italics. An example line we
+should find:
+
+not quite up to their highest total. The _Noctuae_ and _Geometrae_ each
 
 =end pod
 
