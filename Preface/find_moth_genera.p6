@@ -22,7 +22,7 @@ should find:
 # line.
 #
 # https://docs.perl6.org/language/functions#index-entry-MAIN
-sub MAIN (*@) { # Signature says there has to be at least one argument
+sub MAIN (*@*ARGS where { @*ARGS.elems > 0 } ) { # at least one argument
 	for lines() -> $line {
 		next unless $line ~~ / # a pattern
 			:i  # the adverb for case insensitivity
