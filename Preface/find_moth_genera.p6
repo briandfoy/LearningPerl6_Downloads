@@ -22,16 +22,16 @@ should find:
 # line.
 #
 # https://docs.perl6.org/language/functions#index-entry-MAIN
-sub MAIN (*@*ARGS where { @*ARGS.elems > 0 } ) { # at least one argument
+sub MAIN (*@*ARGS where .elems > 0 ) { # at least one argument
 	for lines() -> $line {
 		next unless $line ~~ / # a pattern
 			:i  # the adverb for case insensitivity
-			«   # left word boundary
+			«   # left word boundary, so non-word before
 			_     # underscore is stone age start of italics
 			<[A..Z]>  # a genus starts with a capital Latin letter
 			<[a..z]>+ # followed by lowercase Latin letters
 			_     # underscore is stone age end of italics
-			»   # right word boundary
+			»   # right word boundary, so non-word after
 			/;
 		say $line;
 		}
