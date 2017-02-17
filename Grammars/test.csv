@@ -1,0 +1,14 @@
+Start Header,Header B,Header C,Header D,Last Header
+a,b,c,d,f
+1,2,3,4,5
+"One","Two","Three","Four","Five"
+"First
+One","Second
+Two","Third
+Three","Fourth""Four","Fifth,Five"
+a,b,"c,d",e,f
+a,b,"c,
+d",e,f
+a,b,"c
+,d",e,f
+❄,☃,🐱,"🐱",Ƒ
