@@ -15,6 +15,6 @@ Exponents: ⁰ ¹ ⁹
 
 Emoji things -------------------------
 --------------------------------------
-Thumbs up: 👎";
-Butterfly: 🦋";
+Thumbs up: 👎
+Butterfly: 🦋
 END
