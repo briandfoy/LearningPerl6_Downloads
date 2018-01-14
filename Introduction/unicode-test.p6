@@ -6,7 +6,7 @@ Basic accents and things--------------
 Leftward Double Arrow (⇐, 0x21D0)
 Rightward Double Arrow (⇒, 0x21D2)
 When you want a job you prepare your résumé
-Hello Mr Sørensen";
+Hello Mr Sørensen
 
 Things that matter to Perl 6----------
 --------------------------------------
