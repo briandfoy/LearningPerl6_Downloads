@@ -5,7 +5,9 @@
 https://github.com/briandfoy/LearningPerl6_Downloads
 
 For the exercise in the preface to Learning Perl 6. Use with the file
-in "Data Files/Butterflys and Moths.txt".
+in "DataFiles/Butterflies_and_Moths.txt":
+
+	% perl6 find_moth_genera.p6 DataFiles/Butterflies_and_Moths.txt
 
 Read the lines from the files specified on the command line. Print
 the ones that contain Latin letters between underscores, like an
