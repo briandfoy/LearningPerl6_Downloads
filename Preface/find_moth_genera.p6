@@ -44,8 +44,8 @@ sub MAIN (*@*ARGS where .elems > 0 ) { # at least one argument
 #
 # https://docs.perl6.org/language/functions#index-entry-USAGE
 sub USAGE {
-	print q:to/HERE/;
-	perl6 find_moths.p6 FILE1 [FILE2 [FILE3] ...]
+	print qq:to/HERE/;
+	perl6 $*PROGRAM FILE1 [FILE2 [FILE3] ...]
 
 	Specify one or more files on the command line and this program
 	will print all of the lines containing the word moth.
