@@ -16,7 +16,6 @@ should find:
 
 	not quite up to their highest total. The _Noctuae_ and _Geometrae_ each
 
-
 =end pod
 
 # Perl 6 automatically calls MAIN for you after it compiles your
