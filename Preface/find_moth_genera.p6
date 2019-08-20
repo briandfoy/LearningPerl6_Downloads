@@ -1,5 +1,7 @@
 #!perl6
 
+use v6.c;
+
 =begin pod
 
 https://github.com/briandfoy/LearningPerl6_Downloads
