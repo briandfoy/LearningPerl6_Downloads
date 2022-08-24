@@ -1,0 +1,3 @@
+# https://github.com/github/linguist/blob/master/docs/overrides.md#using-gitattributes
+*.pl linguist-language=Raku
+*.pm linguist-language=Raku
